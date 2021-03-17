@@ -7,7 +7,7 @@ public class abc107_b {
         Scanner scan = new Scanner(System.in);
         int H = scan.nextInt();
         int W =scan.nextInt();
-        String str = scan.nextLine();
+        //String str = scan.nextLine();
         String[][] board = new String[H][W];
         for (int i = 0; i < H; i++) {
             String line_i = scan.nextLine();
